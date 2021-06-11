@@ -255,8 +255,16 @@ a.btn {
     font-family: 'icomoon' !important;
     position: absolute;
     font-size: 25px;
-    top: 10px;
-    right: 10px;
+    top: 13px;
+    right: 12px;
+}
+.btn.down-arrow::after {
+    content: "\e900";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    font-size: 25px;
+    top: 12px;
+    right: 12px;
 }
 
 /* NAVBAR */
@@ -811,7 +819,8 @@ a.btn {
 }
 
 #resume .skills-wrapper {
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
+    width: 100%;
 }
 
 #resume .skills-wrapper ul {
@@ -820,11 +829,14 @@ a.btn {
     display: flex;
     flex-wrap: wrap;
     padding-inline-start: 0;
+    
 }
 
 #resume .skills-wrapper ul li {
     list-style: none;
     padding: 1em;
+    
+
 }
 
 #resume .skills-wrapper ul li img {
