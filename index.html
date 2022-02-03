@@ -415,7 +415,7 @@
 	<section class="footer">
 		<footer>
 			<div>
-				<h4 class="text-white">Copyright © 2021 <span class="text-primary">Abishek B</span>. All Rights
+				<h4 class="text-white">Copyright © <span id="current_year">2021</span> <span class="text-primary">Abishek B</span>. All Rights
 					Reserved.</h5>
 			</div>
 		</footer>
@@ -423,7 +423,7 @@
 	<script src="./assets/js/typewriter.js"></script>
 	<script>
 
-
+		document.getElementById("current_year").innerText = new Date().getFullYear();
 		// window.onscroll = function () {
 		// 	let max_limit = window.screen.availHeight > window.screen.availWidth ? window.screen.availHeight * 0.5 : window.screen.availHeight * 0.8
 		// 	if (window.scrollY > window.screen.height * 0.8) {
