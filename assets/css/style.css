@@ -714,6 +714,10 @@ a.btn {
     #about .about-wrapper .about-content {
         max-width: 100%;
     }
+
+    #about .experience-counts-card{
+        padding-left: 0;
+    }
     .about-footer ul {
         /* flex-direction: column !important; */
         flex-wrap: wrap;
@@ -784,6 +788,11 @@ a.btn {
 }
 
 @media (max-width: 900px) {
+    #service .service-wrapper ul{
+        flex-wrap: unset;
+        justify-content: start;
+        overflow-x: scroll;
+    }
     #service .service-wrapper ul li {
         max-width: 100px;
         margin-left: 1rem;
@@ -800,6 +809,10 @@ a.btn {
 }
 
 @media (max-width: 320px) {
+    #service .service-wrapper ul{
+        flex-wrap: unset;
+        justify-content: start;
+    }
     #service .service-wrapper ul li {
         max-width: 80px;
         margin-left: 1rem;
@@ -846,7 +859,7 @@ a.btn {
 
 @media (max-width: 600px) {
     #resume .skills-wrapper ul li {
-        width: 40px !important;
+        width: 60px !important;
         padding: 0.5em !important;
     }
 
